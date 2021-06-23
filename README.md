@@ -3,11 +3,11 @@ This article will describe how to remove the News and Interests feature in windo
 
 Microsoft has intrucdced a new feature on windows 10 nameed News and Interrests as part of KB5003214 update.
 
-## Manual Disable
+### Manual Disable
 
 Right-click the Taskbar and select “News and Interests -> Turn off” option to hide or remove the icon from Taskbar.
 
-## Group Policy
+### Group Policy
 
 Configure the folowing key and select the **Disabled** option.
 
@@ -15,7 +15,7 @@ Configure the folowing key and select the **Disabled** option.
 
 Note: as this is a computer side policy a reboot is nedded.
 
-## Registry 
+### Registry 
 
 Create a new key named **Windows Feeds** under the bellow reg path.  
 
