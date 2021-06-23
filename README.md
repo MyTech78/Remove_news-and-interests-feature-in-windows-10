@@ -12,15 +12,15 @@ Right-click the Taskbar and select **“News and Interests -> Turn off”** opti
 
 Configure the following setting and select the **Disabled** option.
 
-    Computer Configuration -> Administrative Templates -> Windows Components -> News and interests
+    Computer Configuration / Administrative Templates / Windows Components / News and interests
 
-Note: as this is a computer side policy a reboot is needed.
+Note: As this is a computer side policy a reboot is needed.
 
 
 ### Registry 
 
-Create a new key named **Windows Feeds** under the bellow reg path.  
+Create a new reg key named **Windows Feeds** under the bellow reg path.  
 
     HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
     
-Create a new **DWORD(32-bit)** under the Windows Feeds key named **EnableFeeds** and set its value to **0** to disable News and Interests feature.   
+Create a new **DWORD(32-bit)** under the Windows Feeds key named **EnableFeeds** and set the value to **0**   
