@@ -1,7 +1,7 @@
 # News and Interests feature in windows 10
 This article will describe how to remove the News and Interests feature in windows 10
 
-Microsoft has intrucdced a new feature on windows 10 nameed News and Interrests as part of KB5003214 update.
+Microsoft has introduced a new feature on windows 10 named News and Interests as part of KB5003214 update.
 
 ### Manualy
 
@@ -10,11 +10,11 @@ Right-click the Taskbar and select **“News and Interests -> Turn off”** opti
 
 ### Group Policy
 
-Configure the folowing setting and select the **Disabled** option.
+Configure the following setting and select the **Disabled** option.
 
     Computer Configuration -> Administrative Templates -> Windows Components -> News and interests
 
-Note: as this is a computer side policy a reboot is nedded.
+Note: as this is a computer side policy a reboot is needed.
 
 
 ### Registry 
@@ -23,13 +23,4 @@ Create a new key named **Windows Feeds** under the bellow reg path.
 
     HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
     
-Create a new **DWORD(32-bit)** under the Windows Feeds key named **EnableFeeds** and set its value to **0** to disable News and Interests feature.     
-
-
-
-
-
-
-
-
-
+Create a new **DWORD(32-bit)** under the Windows Feeds key named **EnableFeeds** and set its value to **0** to disable News and Interests feature.   
