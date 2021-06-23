@@ -10,7 +10,7 @@ Right-click the Taskbar and select **“News and Interests -> Turn off”** opti
 
 ### Group Policy
 
-Configure the folowing key and select the **Disabled** option.
+Configure the folowing setting and select the **Disabled** option.
 
     Computer Configuration -> Administrative Templates -> Windows Components -> News and interests
 
