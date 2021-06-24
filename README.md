@@ -19,8 +19,15 @@ Note: As this is a computer side policy a reboot is needed.
 
 ### Registry 
 
-Create a new reg key named **Windows Feeds** under the bellow reg path.  
+To Disable Create a new reg key named **Windows Feeds** under the bellow reg path.  
 
     HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
     
-Create a new **DWORD(32-bit)** under the Windows Feeds key named **EnableFeeds** and set the value to **0**   
+Create a new **DWORD(32-bit)** under the Windows Feeds key named **EnableFeeds** and set the value to **0**  
+
+
+To turn off the feeds without disabling it (useful if you want to give the users the ability to reenable it)
+
+        HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds
+
+create a new **DWORD(32-bit)** named **ShellFeedsTaskbarViewMode** and set the value to **2**
