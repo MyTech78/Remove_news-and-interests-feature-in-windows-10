@@ -2,7 +2,7 @@
 This article will describe how to disable or chnage the News and Interests feature in windows 10.
 
 Microsoft has introduced a new feature on windows 10 named News and Interests as part of KB5003214 update.
-This can cause additional network traffic and take up valuable space on your taskbar, bellow are some of the options to change its behavior 
+This can cause additional network traffic and take up valuable space on your taskbar, bellow are some of the options to change its behaviour.  
 
 ### Manualy
 
