@@ -23,14 +23,14 @@ Feeds registry hive settings are located under:
         
         HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds
 
-To turn off the feeds without disabling it (useful if you want to give the users the ability to re-enable it)
+    To turn off the feeds without disabling it (useful if you want to give the users the ability to re-enable it)
 
-create a new **DWORD(32-bit)** named **ShellFeedsTaskbarViewMode** and set the value to **2**
+    create a new **DWORD(32-bit)** named **ShellFeedsTaskbarViewMode** and set the value to **2**
 
-To show only the icon without text
+    To show only the icon without text
 
-create a new **DWORD(32-bit)** named **ShellFeedsTaskbarViewMode** and set the value to **1**
+    create a new **DWORD(32-bit)** named **ShellFeedsTaskbarViewMode** and set the value to **1**
 
-To show icon and text.
+    To show icon and text.
 
-create a new **DWORD(32-bit)** named **ShellFeedsTaskbarViewMode** and set the value to **0**
+    create a new **DWORD(32-bit)** named **ShellFeedsTaskbarViewMode** and set the value to **0**
